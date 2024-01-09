@@ -1,0 +1,15 @@
+{%extends 'bs.html'%}
+
+{%block title%}{{super()}}{%endblock%}
+
+{%block content%}
+{{super()}}
+
+<form action="/account" method="post">
+    <p>Логин: <input type="text" name="username" required></p>
+    <p>Пароль: <input type="password" name="password" required></p>
+    <p>Email: <input type="email" name="email" required></p>
+    <p><input type="button" value="Войти"></p>
+</form>
+
+{%endblock%}

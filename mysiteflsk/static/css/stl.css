@@ -1,0 +1,19 @@
+body{
+    background: rgb(127, 174, 197);
+    margin: 0;
+    padding: 0;
+}
+.menu{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    background: rgb(106, 175, 56);
+    padding: 20px;
+    margin-top: 0%;
+}
+.content{
+    max-width: 1200px;
+    margin: 0, auto;
+    padding: 20px;
+    box-sizing: border-box;
+}
